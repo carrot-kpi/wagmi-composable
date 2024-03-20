@@ -48,3 +48,4 @@ export * from "./composables/useWatchPendingTransactions";
 export * from "./composables/useWriteContract";
 
 export * from "./types";
+export * from "./plugin";

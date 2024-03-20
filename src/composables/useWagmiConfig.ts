@@ -13,7 +13,7 @@ export function useWagmiConfig<
 
     if (!config)
         throw new Error(
-            "No wagmi config found in Vue context, use the 'CarrotVueAdapter' plugin to properly initialize the library.",
+            "No wagmi config found in Vue context, use the 'VevmAdapter' plugin to properly initialize the library.",
         );
 
     return config;
