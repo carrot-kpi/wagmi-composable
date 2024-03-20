@@ -1,5 +1,5 @@
 {
-    "name": "@carrot-kpi/wagmi-composables",
+    "name": "vevm",
     "version": "0.0.0",
     "type": "module",
     "main": "./dist/index.js",

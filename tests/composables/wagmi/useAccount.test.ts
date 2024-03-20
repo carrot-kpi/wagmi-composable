@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
 import { DEFAULT_ACCOUNT_ADDRESSES, withHostSetup } from "../../utils";
-import { useAccount } from "../../../src/composables/wagmi/useAccount";
+import { useAccount } from "../../../src/composables/useAccount";
 
 describe("Composables", () => {
     describe("Wagmi", () => {

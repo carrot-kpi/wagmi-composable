@@ -1,5 +1,5 @@
 import { inject } from "vue";
-import { WAGMI_CONFIG_KEY, ensureInjectionContext } from "../../commons";
+import { WAGMI_CONFIG_KEY, ensureInjectionContext } from "../commons";
 import type { Config } from "@wagmi/core";
 
 export type UseWagmiConfigReturnType<config extends Config> = config;
