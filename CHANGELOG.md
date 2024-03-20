@@ -1,3 +1,9 @@
+## v0.1.1 (20/03/24)
+
+### Patch Changes
+
+- Missing plugin file in npm package
+
 ## v0.1.0 (20/03/24)
 
 ### Patch Changes
