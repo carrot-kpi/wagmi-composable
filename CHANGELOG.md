@@ -1,3 +1,13 @@
+## v0.1.0 (20/03/24)
+
+### Patch Changes
+
+- Wrong error messages, readme changes
+
+### Minor Changes
+
+- Add `VevmAdapter` plugin to initialize `wagmi` configuration
+
 ## v0.0.2 (20/03/24)
 
 ### Patch Changes
