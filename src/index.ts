@@ -14,6 +14,7 @@ export * from "./composables/useConnectors";
 export * from "./composables/useDisconnect";
 export * from "./composables/useEnsAddress";
 export * from "./composables/useEnsAvatar";
+export * from "./composables/useEnsName";
 export * from "./composables/useEnsResolver";
 export * from "./composables/useEnsText";
 export * from "./composables/useEstimateFeesPerGas";
