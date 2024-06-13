@@ -1,3 +1,9 @@
+## v0.2.1 (13/06/24)
+
+### Minor Changes
+
+- Add `useEnsName` composable
+
 ## v0.1.1 (20/03/24)
 
 ### Patch Changes
