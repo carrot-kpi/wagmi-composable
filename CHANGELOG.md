@@ -1,3 +1,9 @@
+## v0.3.0 (04/07/24)
+
+### Minor Changes
+
+- Upgrade dependencies
+
 ## v0.2.1 (13/06/24)
 
 ### Minor Changes
