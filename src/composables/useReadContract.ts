@@ -52,7 +52,16 @@ export function useReadContract<
         if (!newParams) return;
 
         try {
-            data.value = await readContract(config, newParams);
+            // FIXME: remove cast to ReadContractParameters
+            data.value = await readContract(
+                config,
+                newParams as ReadContractParameters<
+                    abi,
+                    functionName,
+                    args,
+                    config
+                >,
+            );
         } catch (thrown) {
             error.value = thrown as ReadContractErrorType;
         } finally {

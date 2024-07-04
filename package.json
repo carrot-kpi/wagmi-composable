@@ -1,6 +1,6 @@
 {
     "name": "vevm",
-    "version": "0.2.0",
+    "version": "0.3.2",
     "type": "module",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
@@ -32,43 +32,43 @@
         "prepare": "husky install"
     },
     "dependencies": {
-        "viem": "^2.7.15"
+        "viem": "^2.16.5"
     },
     "peerDependencies": {
-        "@wagmi/core": "^2.6.4",
-        "vue": "^3.4.15"
+        "@wagmi/core": "^2.11.6",
+        "vue": "^3.4.30"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.0.2",
-        "@commitlint/config-conventional": "^19.0.0",
-        "@size-limit/file": "^11.0.2",
-        "@tsconfig/node20": "^20.1.2",
-        "@types/node": "^20.11.21",
-        "@typescript-eslint/eslint-plugin": "^7.1.1",
-        "@typescript-eslint/parser": "^7.1.1",
-        "@vitejs/plugin-vue": "^5.0.4",
+        "@commitlint/cli": "^19.3.0",
+        "@commitlint/config-conventional": "^19.2.2",
+        "@size-limit/file": "^11.1.4",
+        "@tsconfig/node20": "^20.1.4",
+        "@types/node": "^20.14.9",
+        "@typescript-eslint/eslint-plugin": "^7.15.0",
+        "@typescript-eslint/parser": "^7.15.0",
+        "@vitejs/plugin-vue": "^5.0.5",
         "@vue/eslint-config-prettier": "^9.0.0",
         "@vue/eslint-config-typescript": "^12.0.0",
-        "@vue/test-utils": "^2.4.4",
+        "@vue/test-utils": "^2.4.6",
         "@vue/tsconfig": "^0.5.1",
-        "@wagmi/connectors": "^4.1.14",
-        "@wagmi/core": "^2.6.5",
+        "@wagmi/connectors": "^5.0.21",
+        "@wagmi/core": "^2.11.6",
         "eslint": "^8.57.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-config-turbo": "^1.12.4",
         "eslint-plugin-prettier": "^5.1.3",
-        "eslint-plugin-vue": "^9.22.0",
+        "eslint-plugin-vue": "^9.27.0",
         "happy-dom": "^13.6.2",
         "husky": "^9.0.11",
-        "npm-run-all2": "^6.1.1",
+        "npm-run-all2": "^6.2.2",
         "pinia": "^2.1.7",
-        "prettier": "^3.2.5",
-        "size-limit": "^11.0.2",
+        "prettier": "^3.3.2",
+        "size-limit": "^11.1.4",
         "turbo": "^1.12.4",
-        "typescript": "~5.3.0",
-        "vite": "^5.1.4",
-        "vitest": "^1.3.1",
-        "vue": "^3.4.20",
-        "vue-tsc": "^1.8.27"
+        "typescript": "~5.5.3",
+        "vite": "^5.3.3",
+        "vitest": "^1.6.0",
+        "vue": "^3.4.30",
+        "vue-tsc": "^2.0.26"
     }
 }
