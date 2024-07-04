@@ -1,3 +1,9 @@
+## v0.3.1 (04/07/24)
+
+### Patch Changes
+
+- Update `pnpm-lock.yaml` file
+
 ## v0.3.0 (04/07/24)
 
 ### Minor Changes
