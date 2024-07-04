@@ -50,7 +50,8 @@ export function useWriteContract<
         if (!newParams) return;
 
         try {
-            hash.value = await writeContract(config, newParams);
+            // FIXME: remove cast to any
+            hash.value = await writeContract(config, newParams as any);
         } catch (thrown) {
             error.value = thrown as WriteContractErrorType;
         } finally {
